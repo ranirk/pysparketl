@@ -22,4 +22,4 @@ filtered_df.show()
 
 # Create Hive Internal table
 filtered_df.write.mode('overwrite') \
-    .saveAsTable("jack.dogecoinproject")
+    .saveAsTable("pythongroup.dogecoinproject")
